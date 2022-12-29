@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: darkgrey;
+}
+#container {
+  width: 500px;
+  height: 250px;
+  background-color: rgba(71, 13, 206, 0.14);
+  border-radius: 10px;
+  margin: 200px auto;
+  padding: 20px;
+  color: #fff;
+}
+
+.name {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.inputdiv {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  flex-direction: column;
+}
+.input {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  width: 400px;
+  height: 40px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button {
+  padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+::placeholder {
+  font-size: 20px;
+}
